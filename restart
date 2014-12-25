@@ -1,0 +1,7 @@
+git pull origin master
+forever stopall
+rm /var/www/efg/img/*
+rm /var/www/efg/pdf/*
+find content/images ! -type d -exec cp '{}' /var/www/efg/img/ \;
+find content/docs -name '*.pdf' -exec cp '{}' /var/www/efg/pdf/ \;
+sh /etc/profile.d/ghost.sh 
