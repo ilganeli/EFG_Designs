@@ -141,7 +141,7 @@ main {
 .logo__title {
 	font-size: 24px;
 	font-weight: 700;
-	line-height: 64px;
+	line-height: 84px;
 	margin: 0;
 	color: CC9966;
 	/*text-transform: uppercase; */
@@ -190,7 +190,7 @@ main {
 .menu__item--active {
 	border-color: #CC9966;
 	border-radius: 2px;
-	color: #5cc1a9;
+	color: #CC9966;
 }
 
 /*---------------------------------
@@ -241,7 +241,7 @@ main {
 }
 
 .social__icon:hover:before {
-	color: #5cc1a9;
+	color: #CC9966;
 }
 
 .social__icon:before {
