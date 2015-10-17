@@ -24,7 +24,7 @@ config = {
             // Host to be passed to node's `net.Server#listen()`
             host: '172.31.61.237',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '2683'
+            port: '2368'
         }
     },
 
@@ -58,9 +58,9 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: 'localhost',
+            host: '0.0.0.0',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '2683'
+            port: '2368'
         },
         paths: {
             contentPath: path.join(__dirname, '/content/')
